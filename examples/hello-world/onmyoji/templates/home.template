@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+			{{header}}
+		</title>
+	</head>
+	<body>
+		{{header}}
+		{{text}}
+	</body>
+</html>

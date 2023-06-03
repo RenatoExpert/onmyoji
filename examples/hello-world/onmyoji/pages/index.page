@@ -1,0 +1,8 @@
+<onmyoji-page template='home'>
+	<page-cut key='header'>
+		Hello World!
+	</page-cut>
+	<page-cut key='text'>
+		I am just a example page!
+	</page-cut>
+</onmyoji-page>
