@@ -1,0 +1,29 @@
+{
+  "name": "onmyoji",
+  "version": "1.0.0",
+  "description": "Run static websites with the same features as a dynamic one!",
+  "main": "onmyoji.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatoexpert/onmyoji.git"
+  },
+  "keywords": [
+    "cdn",
+    "template",
+    "dynamic",
+    "website",
+    "builder"
+  ],
+  "author": "Renato Ramos Ribeiro Araujo @renatoexpert",
+  "license": "SEE LICENSE IN LICENSE FILE",
+  "bugs": {
+    "url": "https://github.com/renatoexpert/onmyoji/issues"
+  },
+  "homepage": "https://github.com/renatoexpert/onmyoji#readme"
+}
