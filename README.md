@@ -5,7 +5,7 @@ Make a dynamic website with static files
 ## HTML file
 Its an example **entire** html page
 ```
-<script src="https://cdn.jsdelivr.net/npm/onmyoji@3.3.3/dist/js/onmyoji.bundle.min.js" integrity="sha384-hash" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/onmyoji@1.0.0/onmyoji.js" integrity="sha384-hash" crossorigin="anonymous"></script>
 <script>
 	onmyoji_map = 'https://mywebsite.com/example/root/onmyoji';	//	Optional
 </script>
