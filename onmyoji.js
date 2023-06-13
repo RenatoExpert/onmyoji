@@ -5,7 +5,7 @@ pathname = window.location.pathname;
 pathname = pathname == '/' ? '/index.html' : pathname;
 console.log(pathname);
 //	Show corresponding page path
-page_path = 'onmyoji/pages' + pathname.replace(".html", ".page");
+page_path = '/onmyoji/pages' + pathname.replace(".html", ".page");
 
 function load_doc (path) {
 	return new Promise((resolve) => {
@@ -24,7 +24,7 @@ function load_doc (path) {
 function get_template(xml) {
 	page_settings = xml.getElementsByTagName("onmyoji-page")[0];
 	template = page_settings.getAttribute('template');
-	path = `onmyoji/templates/${template}.template`;
+	path = `/onmyoji/templates/${template}.template`;
 	return path
 }
 
