@@ -3,9 +3,10 @@ console.debug('Script init');
 //	Get current url
 pathname = window.location.pathname;
 pathname = pathname == '/' ? '/index.html' : pathname;
-console.log(pathname);
+console.debug('Pathname:', pathname);
 //	Show corresponding page path
 page_path = '/onmyoji/pages' + pathname.replace(".html", ".page");
+console.debug('Page_path:', page_path);
 
 function load_doc (path) {
 	return new Promise((resolve) => {
@@ -56,6 +57,7 @@ function process_template(template, fields) {
 
 load_doc(page_path).then((page) => {
 	template_path = get_template(page);
+	console.debug('template_path:', template_path);
 	load_doc(template_path).then((template) => {
 		let fields = get_fields(page);
 		let renderized = process_template(template, fields);
